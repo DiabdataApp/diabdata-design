@@ -1,0 +1,11 @@
+# Normalize line endings so SVG, JSON and Markdown diffs stay clean on every OS
+* text=auto eol=lf
+
+# SVGs are text: diff them like code
+*.svg text eol=lf diff=xml
+
+# Fonts are binary: never touch their bytes
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary

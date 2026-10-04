@@ -1,0 +1,12 @@
+# Generated output (build tooling writes here; never commit it)
+dist/
+
+# Dependencies, once tooling like Style Dictionary is added
+node_modules/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
